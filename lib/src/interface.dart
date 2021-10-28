@@ -28,6 +28,7 @@ StructureCalc(bool condicao, opcoes, n1, n2, yorn) {
       print("-------------------------------");
       print("Gostária de abrir a calculadora novamente? Y/N\n");
       yorn = stdin.readLineSync();
+      print("\x1B[2J\x1b[0;0H");
       if (yorn == "Y") {
         MenuCalc();
         opcoes = stdin.readLineSync();
@@ -37,6 +38,7 @@ StructureCalc(bool condicao, opcoes, n1, n2, yorn) {
         
         break;
       }
+      
       break;
     case "subtracao":
       print("Digite o primeiro valor: ");
@@ -49,6 +51,7 @@ StructureCalc(bool condicao, opcoes, n1, n2, yorn) {
       print("-------------------------------");
       print("Gostária de abrir a calculadora novamente? Y/N\n");
       yorn = stdin.readLineSync();
+       print("\x1B[2J\x1b[0;0H");
       if (yorn == "Y") {
         MenuCalc();
         opcoes = stdin.readLineSync();
@@ -69,6 +72,7 @@ StructureCalc(bool condicao, opcoes, n1, n2, yorn) {
       print("-------------------------------");
       print("Gostária de abrir a calculadora novamente? Y/N\n");
       yorn = stdin.readLineSync();
+       print("\x1B[2J\x1b[0;0H");
       if (yorn == "Y") {
         MenuCalc();
         opcoes = stdin.readLineSync();
@@ -89,6 +93,7 @@ StructureCalc(bool condicao, opcoes, n1, n2, yorn) {
       print("-------------------------------");
       print("Gostária de abrir a calculadora novamente? Y/N\n");
       yorn = stdin.readLineSync();
+       print("\x1B[2J\x1b[0;0H");
       if (yorn == "Y") {
         MenuCalc();
         opcoes = stdin.readLineSync();
@@ -99,5 +104,6 @@ StructureCalc(bool condicao, opcoes, n1, n2, yorn) {
       }
       break;
     default:
+    
   }
 }
