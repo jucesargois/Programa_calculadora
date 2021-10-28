@@ -1,2 +1,2 @@
-# Programa_calculadora
- Programa pensado para colcoar em prática meus conhecimentos em progrrmação orientada a objetos com dart
+A sample command-line application with an entrypoint in `bin/`, library code
+in `lib/`, and example unit test in `test/`.
