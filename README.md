@@ -1,5 +1,7 @@
 # Programa_calculadora💾
- Dart
+ Dart (Autoral)
+  <img align="center" alt="Jucesargois-Ts" width="15" src="https://img.icons8.com/color/48/000000/dart.png">
+
  
 Programa pensado para colocar em prática meus conhecimentos em lógica de programação com dart utlizando um pouco de POO.
 
